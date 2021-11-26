@@ -27,3 +27,6 @@ let color: myColor = 'black';
 let color: myColor = 'red';
 (good)
 ```
+
+typescript는 문법을 계속 체크하면서 유형이 다를 경우 바로 오류임을 보여준다.
+
