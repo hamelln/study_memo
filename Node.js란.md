@@ -74,9 +74,9 @@ function b() {
 }
 
 function c() {
-    console.log('c');
     setTimeout(b, 0);
     a();
+    console.log('c');
 }
 
 c();
@@ -90,8 +90,7 @@ c();
 따라서 a -> c를 실행해서 콜스택을 비운 뒤에 메시지 큐에 있는 b가 콜스택으로 이동한 뒤 출력된다.
 ```
 
-![image](https://user-images.githubusercontent.com/39308313/144221458-e8380289-ffc9-4c53-bd99-88d0f12575f0.png)
-
+![image](https://user-images.githubusercontent.com/39308313/144221789-50c7f629-7fa5-4ec8-90b1-6ab53ed34199.png)
 
 - Job Queue
 
