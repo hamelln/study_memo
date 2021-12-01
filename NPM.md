@@ -35,7 +35,7 @@ $ npm i eslint --save-dev
 
 ![image](https://user-images.githubusercontent.com/39308313/144236436-64a386ea-67fc-492e-8a38-ee3ee178c226.png)
 
-## node_modules 폴더는 따로 업로드를 하지 않는 대상이다.
+## node_modules 폴더는 깃헙 등에 업로드하지 말자.
 
 
 ```txt
