@@ -24,14 +24,14 @@ eslint를 설치하겠다는 명령어다. npm install eslint와 똑같은 말�
 이런 식으로 라이브러리(혹은 패키지)를 설치하는 등의 행동을 의존성(dependencies) 관리라고 부른다.
 설치를 하면 package.json의 dependencies, node_modules에 추가된다.
 
-![image](https://user-images.githubusercontent.com/39308313/144236491-60173ccb-a1a1-484e-8c6f-830af7e9d512.png)
-
 $ npm i eslint --save-dev
 
 --save-dev는 개발용 의존성에 쓰는 명령어다.
 배포할 때는 쓸 일 없는 라이브러리를 설치할 때 쓴다.
 개발용 의존성은 package.json의 devDependencies에 추가된다.
 ```
+
+![image](https://user-images.githubusercontent.com/39308313/144236491-60173ccb-a1a1-484e-8c6f-830af7e9d512.png)
 
 ![image](https://user-images.githubusercontent.com/39308313/144236436-64a386ea-67fc-492e-8a38-ee3ee178c226.png)
 
