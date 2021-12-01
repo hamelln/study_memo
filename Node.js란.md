@@ -99,3 +99,23 @@ Promise에 등록된 Callback을 넣는 큐.
 자기의 상위 함수가 '종료되기 전'에 함수를 콜스택으로 옮긴다.
 메세지 큐와 달리 콜스택이 안 비어도 된다.
 ```
+
+
+## 5. 모듈
+
+    프로젝트는 큰데 한 파일에 코드를 다 집어넣으면?
+    
+```txt
+당연히 위험하다. 따라서 코드를 분리해야 한다.
+모듈은 코드를 분리하기 위한 방법이다.
+npm을 하면서 패키지를 설치하는데, 패키지는 여러 모듈의 모음이다. 이름부터 node_modules다.
+
+모듈의 예로는 console, process, fs, HTTP, url, path 등이 있다.
+```
+
+### ES Module, commonjs 
+
+```txt
+ES Module은 export, import를 쓴다.
+commonjs는 module.exports, require를 쓴다.
+```
