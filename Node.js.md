@@ -84,14 +84,31 @@ function c() {
 c();
 ```
 
+![image](https://user-images.githubusercontent.com/39308313/144221789-50c7f629-7fa5-4ec8-90b1-6ab53ed34199.png)
+
 ```txt
-위와 같은 코드를 돌렸을 때 아래와 같은 상태가 된다.
 Call Stack: [c, a]
 Message Queue : [ b ]
 따라서 a -> c를 실행해서 콜스택을 비운 뒤에 메시지 큐에 있는 b가 콜스택으로 이동한 뒤 출력된다.
+
+Q) 만약 아래처럼 코드를 짜면 어떻게 될까?
 ```
 
-![image](https://user-images.githubusercontent.com/39308313/144221789-50c7f629-7fa5-4ec8-90b1-6ab53ed34199.png)
+```javascript
+function c() {
+    setTimeout(b, 100);
+    setTimeout(a, 0);
+    console.log('c');
+}
+```
+
+```txt
+Call Stack : [c]
+Message Queue : [a , b]
+가 된다.
+b는 100ms 뒤에 Call Stack으로 가는 게 아니라, 100ms 뒤에 Message Queue로 간다.
+따라서 a가 먼저 메시지 큐에 들어갔기 때문에 a -> b 순으로 콜스택에 들어간다.
+```
 
 - Job Queue
 
