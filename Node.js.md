@@ -204,4 +204,4 @@ commonjs는 module.exports, require를 쓴다.
 ```
 
 
-[참고한 영상](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=188s)
+[참고 영상 (이벤트 루프란 무엇인가?)](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=188s)
