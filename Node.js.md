@@ -117,6 +117,15 @@ b는 100ms 뒤에 Call Stack으로 가는 게 아니라, 100ms 뒤에 Message Qu
 따라서 a가 먼저 메시지 큐에 들어갔기 때문에 a -> b 순으로 콜스택에 들어간다.
 ```
 
+## 그래서 이거 왜 쓰는데?
+
+![image](https://user-images.githubusercontent.com/39308313/144360746-b051a3da-561b-45f2-9efc-78e823293359.png)
+
+```txt
+setTimeout은 예시이다. setTimeout만 저렇게 돌아가는 게 아니다.
+HTML에서 onClick()이벤트 처리 등도 이런 식으로 적용이 된다.
+```
+
 - Job Queue
 
 ```txt
