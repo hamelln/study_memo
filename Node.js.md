@@ -165,10 +165,11 @@ async로 돌릴 경우는 아래와 같이 된다.
 
 render는 콜백처럼 작동한다.
 따라서 render도 큐에 들어간다.
-(단, 순서는 일반 task보다 우선된다.)
-(rendering = microTask > task)
+내가 작성한 콜백함수같은 것보단 우선 순위.
+rendering = microTask > task
+(단, 브라우저마다 다르다고 한다.)
 
-그런데 스택에 코드가 있으면? 
+그런데 스택에 코드가 남아있으면? 
 render가 스택에 못 들어간다. 
 화면 redering을 못한다!
 
