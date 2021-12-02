@@ -202,3 +202,6 @@ npm을 하면서 패키지를 설치하는데, 패키지는 여러 모듈의 모
 ES Module은 export, import를 쓴다.
 commonjs는 module.exports, require를 쓴다.
 ```
+
+
+[참고한 영상](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=188s)
