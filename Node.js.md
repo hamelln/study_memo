@@ -59,10 +59,10 @@ Node.js가 비동기 이벤트 동작을 처리하는 일련의 loop로서 구�
 ```txt
 Task Queue로도 불리는데 엄밀히는 둘이 다른 개념으로 보이니 주의.
 
+js를 공부중이니 예시를 setTimeout으로 들겠다.
+
 ※ Task Queue는 콜백 함수뿐 아니라 이벤트, 스크립트, HTML parse 등을 담는다.
 setTimeout을 위해서 만들어진 개념은 아니란 뜻이다. 
-
-js를 공부중이니 예시는 setTimeout으로 들겠다.
 
 ※ setTimeout은 V8 소스 코드에 없다. 
 브라우저에서 제공하는, js가 실행되는 런타임 환경에 있는 API이다.
