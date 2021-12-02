@@ -57,11 +57,14 @@ Node.js가 비동기 이벤트 동작을 처리하는 일련의 loop로서 구�
 - Message Queue
 
 ```txt
-setTimeout은 V8 소스 코드에 없다.
+※ setTimeout은 V8 소스 코드에 없다. 
 브라우저에서 제공하는, js가 실행되는 런타임 환경에 있는 API이다.
-1. stack에 setTimeout이 올라간다.
+
+ - 실행 원리
+
+1. Call Stack에 setTimeout이 올라간다.
 2. 내부 함수는 WepAPIs로 이동한 뒤, 카운트 다운을 한다.
-3. 그동안 콜 스택은 함수들 실행하며 자기 할 일 한다.
+3. 그동안 콜 스택은 함수들 실행하며 자기 할 일을 한다.
 4. 카운트 다운이 끝나면 task queue, 혹은 message queue로 함수가 이동한다.
 5. 콜 스택이 다 비면 그제야 콜스택으로 이동 후 실행한다.
 
