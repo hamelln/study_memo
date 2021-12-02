@@ -126,6 +126,30 @@ setTimeout은 예시이다. setTimeout만 저렇게 돌아가는 게 아니다.
 HTML에서 onClick()이벤트 처리 등도 이런 식으로 적용이 된다.
 ```
 
+![image](https://user-images.githubusercontent.com/39308313/144361557-b0624522-9fc7-44b7-b9bb-56de27f0af88.png)
+
+```txt
+위 코드에서 그냥 forEach를 돌리면 각 index마다 console.log()를 동기적으로 돌린다. 
+
+async로 돌릴 경우는 아래와 같이 된다.
+```
+
+![image](https://user-images.githubusercontent.com/39308313/144361671-f3a8b498-dc4b-4772-bb56-e68ed2823b09.png)
+
+```txt
+각 index마다 바로 콜스택을 비우는 게 아니라 큐에 집어넣는다.
+```
+
+### 왜?
+
+```txt
+몇 개 console.log 찍는 건 금방이니까 괜찮지만 시간이 오래 걸리는 작업이면?
+그럴 땐 콜스택 비우는 거에 시간을 너무 소모한다.
+그리고 콜스택을 비우기 전까진 다른 작업을 못한다!
+따라서 큐에 넣어두는 처리를 하면 좋다.
+```
+
+
 - Job Queue
 
 ```txt
