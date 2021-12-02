@@ -1,8 +1,8 @@
 ## Typescript
 ```txt
-  ES2015부터 '모듈'스펙을 제공하기 시작한다.  
-  트랜스파일러(Babel, Typescript 등) 등장.  
-  npm, 번들러(Webpack) 등장.  
+ES2015부터 '모듈'스펙을 제공하기 시작한다.  
+트랜스파일러(Babel, Typescript 등) 등장.  
+npm, 번들러(Webpack) 등장.  
   
 Typescript는 javascript의 슈퍼셋.  
 js의 모든 기능 + 추가 기능 제공  
