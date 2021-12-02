@@ -57,7 +57,7 @@ Node.js가 비동기 이벤트 동작을 처리하는 일련의 loop로서 구�
 - Message Queue
 
 ```txt
-Task Queue로도 불리는데 엄밀히는 둘이 다른 개념으로 보이니 주의.
+Task Queue로도 불리지만 엄밀하게 따지면 둘이 같은 개념은 아니다.
 
 js를 공부중이니 예시를 setTimeout으로 들겠다.
 
