@@ -64,6 +64,8 @@ setTimeout같은 지연 함수를 넣는 큐.
 4. 그제야 내부 함수는 메시지 큐 -> 콜스택으로 이동 후 실행.
 ```
 
+![image](https://user-images.githubusercontent.com/39308313/144356805-87e7041c-7ca9-41ed-9cf5-5af3c9bf1c52.png)
+
 ```javascript
 function a() {
   console.log('a');
@@ -98,7 +100,6 @@ Promise에 등록된 Callback을 넣는 큐.
 자기의 상위 함수가 '종료되기 전'에 함수를 콜스택으로 옮긴다.
 메세지 큐와 달리 콜스택이 안 비어도 된다.
 ```
-
 
 ## 5. 모듈
 
