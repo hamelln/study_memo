@@ -126,7 +126,7 @@ setTimeout은 예시이다. setTimeout만 저렇게 돌아가는 게 아니다.
 HTML에서 onClick()이벤트 처리 등도 이런 식으로 적용이 된다.
 ```
 
-![image](https://user-images.githubusercontent.com/39308313/144361557-b0624522-9fc7-44b7-b9bb-56de27f0af88.png)
+![image](https://user-images.githubusercontent.com/39308313/144361895-85407884-7049-4d0e-bb6d-c122ea7140db.png)
 
 ```txt
 위 코드에서 그냥 forEach를 돌리면 각 index마다 console.log()를 동기적으로 돌린다. 
