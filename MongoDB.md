@@ -24,3 +24,9 @@ NoSQL과 RDB가 구분된다는 것은?
     
 ![Eu2aDevVIAQww42](https://user-images.githubusercontent.com/39308313/144696681-da8160c2-7a1c-47cc-aa63-940cebc99b21.png)
 
+
+## 나 이거 왜 하는 중?
+
+### 1. MongoDB는 데이터를 JSON document로 관리한다.
+### 2. 나는 js, JSON을 공부중이다.
+
