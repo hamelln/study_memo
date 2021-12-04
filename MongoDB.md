@@ -22,6 +22,5 @@ NoSQL과 RDB가 구분된다는 것은?
 
 ### - NoSQL은 데이터 구조화를 안 하고 자료간 관계도 별 신경을 안 쓴다.
     
-![image](https://user-images.githubusercontent.com/39308313/144696558-3b9b5a2e-9b6d-43af-9e66-a659f9b7a94a.png)
-
+![Eu2aDevVIAQww42](https://user-images.githubusercontent.com/39308313/144696681-da8160c2-7a1c-47cc-aa63-940cebc99b21.png)
 
