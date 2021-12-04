@@ -27,11 +27,7 @@ NoSQL과 RDB가 구분된다는 것은?
 ![Eu2aDevVIAQww42](https://user-images.githubusercontent.com/39308313/144696681-da8160c2-7a1c-47cc-aa63-940cebc99b21.png)
 
 
-## 나 이거 왜 하는 중?
+## MongoDB와 RDB의 구조는 아래같은 차이가 있다.
 
-### 1. MongoDB는 데이터를 JSON document로 관리한다.
-### 2. 나는 js, JSON을 공부중이다.
+![MongoDB-chart1](https://user-images.githubusercontent.com/39308313/144697986-98bce75b-c60b-4ec6-8a78-d283125f66dd.jpg)
 
-## 그게 상관이 있나?
-
-    솔직히 모르겠다. 아직 공부중이라 추가 변경할 예정.
